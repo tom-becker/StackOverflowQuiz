@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--cardview styles-->
+    <style name="CardViewStyle" parent="CardView">
+        <item name="android:layout_margin">2dp</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/unanswered_card_color</item>
+    </style>
+
+    <!--textview styles-->
+
+    <style name="BaseTextView">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="QuestionHeader" parent="BaseTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="QuestionCardViewBody" parent="BaseTextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="HintText" parent="BaseTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginTop">3sp</item>
+    </style>
+
+    <style name="AnswerCardViewBody" parent="BaseTextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AnswerCardViewAuthor" parent="BaseTextView">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

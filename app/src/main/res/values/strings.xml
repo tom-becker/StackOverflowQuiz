@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AcculynxChallenge</string>
+    <string name="list_view_error_text">Error Fetching Question Data.\nPlease try again in a few minutes.</string>
+    <string name="dialog_close_button">Close</string>
+    <string name="list_text_author">Author: %1$s</string>
+    <string name="list_text_creationdate">Asked on: %1$s</string>
+    <string name="list_text_numanswers">Number of Answers: %1$s</string>
+    <string name="error_getting_question_title_text">Error retrieving question data</string>
+    <string name="error_getting_question_body_text">Error retrieving question data</string>
+    <string name="error_getting_answers_text">Error retrieving answers data</string>
+    <string name="question_card_hint">TAP TO TAKE QUIZ</string>
+    <string name="question_list_hint">SWIPE DOWN TO REFRESH</string>
+    <string name="answer_card_hint">TAP CARD TO ANSWER</string>
+    <string name="quiz_header_hint">TAP FOR FULL POST</string>
+    <string name="quiz_answer_hint">TAP TO CHOOSE ANSWER</string>
+</resources>

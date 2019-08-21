@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app theme colors-->
+    <color name="colorPrimary">#b2bec3</color>
+    <color name="colorPrimaryDark">#34495e</color>
+    <color name="colorAccent">#e67e22</color>
+
+    <!--cardview colors-->
+    <color name="unanswered_card_color">#b2bec3</color>
+    <color name="correct_card_color">#55efc4</color>
+    <color name="incorrect_card_color">#ff7675</color>
+</resources>
