@@ -1,18 +1,16 @@
-package com.tombecker.acculynxchallenge.viewmodel
+package com.tombecker.stackoverflowquiz.viewmodel
 
 import android.app.Application
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import com.tombecker.acculynxchallenge.model.QuestionModel
-import com.tombecker.acculynxchallenge.model.QuestionResponse
-import com.tombecker.acculynxchallenge.model.local.QuestionDatabase
-import com.tombecker.acculynxchallenge.model.remote.StackOverflowApiService
-import com.tombecker.acculynxchallenge.util.AppConstants.Companion.LIST_CACHE_TIME_IN_NANO
-import com.tombecker.acculynxchallenge.util.AppConstants.Companion.MIN_ANSWER_NUMBER
-import com.tombecker.acculynxchallenge.util.SharedPrefsHelper
+import com.tombecker.stackoverflowquiz.model.QuestionModel
+import com.tombecker.stackoverflowquiz.model.QuestionResponse
+import com.tombecker.stackoverflowquiz.model.local.QuestionDatabase
+import com.tombecker.stackoverflowquiz.model.remote.StackOverflowApiService
+import com.tombecker.stackoverflowquiz.util.AppConstants.Companion.LIST_CACHE_TIME_IN_NANO
+import com.tombecker.stackoverflowquiz.util.AppConstants.Companion.MIN_ANSWER_NUMBER
+import com.tombecker.stackoverflowquiz.util.SharedPrefsHelper
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
 
 class QuestionListViewModel(application: Application) : BaseViewModel(application) {

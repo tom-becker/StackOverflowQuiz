@@ -1,10 +1,10 @@
-package com.tombecker.acculynxchallenge.util
+package com.tombecker.stackoverflowquiz.util
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
 import androidx.core.content.edit
-import com.tombecker.acculynxchallenge.util.AppConstants.Companion.LIST_CACHE_TIME_KEY
+import com.tombecker.stackoverflowquiz.util.AppConstants.Companion.LIST_CACHE_TIME_KEY
 
 class SharedPrefsHelper {
     companion object {

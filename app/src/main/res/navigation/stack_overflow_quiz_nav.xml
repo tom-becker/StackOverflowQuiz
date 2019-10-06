@@ -5,7 +5,7 @@
             app:startDestination="@id/questionListFragment">
 
     <fragment android:id="@+id/questionListFragment"
-              android:name="com.tombecker.acculynxchallenge.view.QuestionListFragment"
+              android:name="com.tombecker.stackoverflowquiz.view.QuestionListFragment"
               tools:layout="@layout/question_list_fragment" android:label="Question List">
         <action android:id="@+id/action_list_to_quiz"
                 app:destination="@+id/questionQuizFragment" app:enterAnim="@anim/nav_default_enter_anim"
@@ -13,7 +13,7 @@
                 app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
     </fragment>
     <fragment android:id="@+id/questionQuizFragment"
-              android:name="com.tombecker.acculynxchallenge.view.QuestionQuizFragment"
+              android:name="com.tombecker.stackoverflowquiz.view.QuestionQuizFragment"
               android:label="Quiz" tools:layout="@layout/question_quiz_fragment">
         <action android:id="@+id/action_quiz_to_list"
                 app:destination="@id/questionListFragment" app:enterAnim="@anim/nav_default_enter_anim"

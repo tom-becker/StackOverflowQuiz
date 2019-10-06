@@ -1,4 +1,4 @@
-package com.tombecker.acculynxchallenge.model
+package com.tombecker.stackoverflowquiz.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

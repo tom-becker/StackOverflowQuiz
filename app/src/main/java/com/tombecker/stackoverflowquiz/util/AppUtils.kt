@@ -1,4 +1,4 @@
-package com.tombecker.acculynxchallenge.util
+package com.tombecker.stackoverflowquiz.util
 
 import java.text.SimpleDateFormat
 import java.util.*

@@ -1,8 +1,4 @@
-package com.tombecker.acculynxchallenge.model
-
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.PrimaryKey
+package com.tombecker.stackoverflowquiz.model
 
 //@Entity
 data class AnswerModel (

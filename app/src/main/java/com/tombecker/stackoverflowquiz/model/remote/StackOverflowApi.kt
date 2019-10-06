@@ -1,7 +1,7 @@
-package com.tombecker.acculynxchallenge.model.remote
+package com.tombecker.stackoverflowquiz.model.remote
 
-import com.tombecker.acculynxchallenge.model.AnswerResponse
-import com.tombecker.acculynxchallenge.model.QuestionResponse
+import com.tombecker.stackoverflowquiz.model.AnswerResponse
+import com.tombecker.stackoverflowquiz.model.QuestionResponse
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Path

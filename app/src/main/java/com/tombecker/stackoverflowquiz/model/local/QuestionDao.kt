@@ -1,9 +1,9 @@
-package com.tombecker.acculynxchallenge.model.local
+package com.tombecker.stackoverflowquiz.model.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.tombecker.acculynxchallenge.model.QuestionModel
+import com.tombecker.stackoverflowquiz.model.QuestionModel
 import io.reactivex.Single
 
 @Dao

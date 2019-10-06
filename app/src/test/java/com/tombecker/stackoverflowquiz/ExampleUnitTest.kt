@@ -1,4 +1,4 @@
-package com.tombecker.acculynxchallenge
+package com.tombecker.stackoverflowquiz
 
 import org.junit.Test
 

@@ -1,12 +1,12 @@
-package com.tombecker.acculynxchallenge.viewmodel
+package com.tombecker.stackoverflowquiz.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import com.tombecker.acculynxchallenge.model.AnswerModel
-import com.tombecker.acculynxchallenge.model.AnswerResponse
-import com.tombecker.acculynxchallenge.model.QuestionModel
-import com.tombecker.acculynxchallenge.model.QuestionResponse
-import com.tombecker.acculynxchallenge.model.remote.StackOverflowApiService
+import com.tombecker.stackoverflowquiz.model.AnswerModel
+import com.tombecker.stackoverflowquiz.model.AnswerResponse
+import com.tombecker.stackoverflowquiz.model.QuestionModel
+import com.tombecker.stackoverflowquiz.model.QuestionResponse
+import com.tombecker.stackoverflowquiz.model.remote.StackOverflowApiService
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

@@ -1,11 +1,11 @@
-package com.tombecker.acculynxchallenge.adapter
+package com.tombecker.stackoverflowquiz.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.tombecker.acculynxchallenge.R
-import com.tombecker.acculynxchallenge.model.AnswerModel
+import com.tombecker.stackoverflowquiz.R
+import com.tombecker.stackoverflowquiz.model.AnswerModel
 import kotlinx.android.synthetic.main.answer_list_item.view.*
 
 class AnswerListAdapter(private val answerList: ArrayList<AnswerModel>,

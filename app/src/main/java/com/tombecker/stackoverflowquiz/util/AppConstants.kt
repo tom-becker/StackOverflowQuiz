@@ -1,4 +1,4 @@
-package com.tombecker.acculynxchallenge.util
+package com.tombecker.stackoverflowquiz.util
 
 class AppConstants {
 

@@ -1,4 +1,4 @@
-package com.tombecker.acculynxchallenge.viewmodel
+package com.tombecker.stackoverflowquiz.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

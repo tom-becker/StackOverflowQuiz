@@ -1,11 +1,11 @@
-package com.tombecker.acculynxchallenge.view
+package com.tombecker.stackoverflowquiz.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
-import com.tombecker.acculynxchallenge.R
+import com.tombecker.stackoverflowquiz.R
 
 class MainActivity : AppCompatActivity() {
 

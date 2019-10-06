@@ -1,15 +1,15 @@
-package com.tombecker.acculynxchallenge.adapter
+package com.tombecker.stackoverflowquiz.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import com.tombecker.acculynxchallenge.R
-import com.tombecker.acculynxchallenge.model.QuestionModel
-import com.tombecker.acculynxchallenge.util.AppConstants.Companion.QUESTION_DATE_FORMAT
-import com.tombecker.acculynxchallenge.util.AppUtils
-import com.tombecker.acculynxchallenge.view.QuestionListFragmentDirections
+import com.tombecker.stackoverflowquiz.R
+import com.tombecker.stackoverflowquiz.model.QuestionModel
+import com.tombecker.stackoverflowquiz.util.AppConstants.Companion.QUESTION_DATE_FORMAT
+import com.tombecker.stackoverflowquiz.util.AppUtils
+import com.tombecker.stackoverflowquiz.view.QuestionListFragmentDirections
 import kotlinx.android.synthetic.main.question_list_item.view.*
 
 class QuestionListAdapter(private val questionList: ArrayList<QuestionModel>): RecyclerView.Adapter<QuestionListAdapter.QuestionViewHolder>() {

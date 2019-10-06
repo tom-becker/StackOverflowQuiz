@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AcculynxChallenge</string>
+    <string name="app_name">StackOverflowQuiz</string>
     <string name="list_view_error_text">Error Fetching Question Data.\nPlease try again in a few minutes.</string>
     <string name="dialog_close_button">Close</string>
     <string name="list_text_author">Author: %1$s</string>

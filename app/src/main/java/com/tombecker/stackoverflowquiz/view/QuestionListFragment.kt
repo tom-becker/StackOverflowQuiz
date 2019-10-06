@@ -1,8 +1,7 @@
-package com.tombecker.acculynxchallenge.view
+package com.tombecker.stackoverflowquiz.view
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,9 +9,9 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 
-import com.tombecker.acculynxchallenge.R
-import com.tombecker.acculynxchallenge.adapter.QuestionListAdapter
-import com.tombecker.acculynxchallenge.viewmodel.QuestionListViewModel
+import com.tombecker.stackoverflowquiz.R
+import com.tombecker.stackoverflowquiz.adapter.QuestionListAdapter
+import com.tombecker.stackoverflowquiz.viewmodel.QuestionListViewModel
 import kotlinx.android.synthetic.main.question_list_fragment.*
 
 class QuestionListFragment : Fragment() {
